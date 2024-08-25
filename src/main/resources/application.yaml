@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: watchlist-api
+
+api:
+  integracao:
+    omdb:
+      host: https://www.omdbapi.com/
+      apiKey: ${OMDB_API_KEY}
